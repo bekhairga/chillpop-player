@@ -51,6 +51,11 @@
 	border-radius: 20px;
 	border: transparent;
 }
+*::-moz-range-thumb {
+	background: rgba(155, 155, 155, 0.8);
+	background: transparent;
+	border: none;
+}
 
 .selected {
 	background-color: rgb(201, 215, 255);
